@@ -18,10 +18,75 @@ img {
   /* padding: 2px; */
 }
 
-.ms_nopadding {
-  padding: 0px;
+/* JUMBOTRON */
+#jumbo {
+  /* height: 820px; */
+  /* background-image: url("../img/home.jpg"); */
 }
 
-#jumbo {
+.box1 {
   height: 820px;
   background-image: url("../img/home.jpg");
+}
+
+.contentleft1 {
+  height: 820px;
+  padding-top: 100px;
+  padding-right: 100px;
+  padding-left: 180px;
+}
+
+#simplest {
+  font-size: 80px;
+  color: white;
+}
+
+#parinizio {
+  font-size: 30px;
+  color: lightblue;
+}
+
+.contentright1 {
+  height: 820px;
+  padding-top: 120px;
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+.subcontentright1 {
+  height: 390px;
+  max-width: 550px;
+  border-radius: 15px;
+  background-color: white;
+  margin-left: -12px;
+  margin-right: -12px;
+  text-align: center;
+}
+
+#deploy {
+  padding-top: 20px;
+  font-size: 30px;
+  margin-bottom: -1px;
+}
+
+#started {
+  font-size: 30px;
+  color: blue;
+}
+
+.ms_pad {
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.ms_pad1 {
+  padding-right: 120px;
+  padding-left: 120px;
+  margin-top: 10px;
+}
+
+/* sezione IMMAGINI */
+  .ms_imgs {
+    padding-right: 200px;
+    padding-left: 200px;
+  }
