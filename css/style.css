@@ -1,0 +1,27 @@
+/* regole generali */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* debug */
+[class*="col-"] {
+  min-height: 100px;
+  background-color: #5ea9be;
+  border: solid 1px black;
+  /* padding: 2px; */
+}
+
+.ms_nopadding {
+  padding: 0px;
+}
+
+#jumbo {
+  height: 820px;
+  background-image: url("../img/home.jpg");
