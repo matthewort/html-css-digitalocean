@@ -26,7 +26,7 @@ img {
 
 .box1 {
   height: 820px;
-  background-image: url("../img/home.jpg");
+  /* background-image: url("../img/home.jpg"); */
 }
 
 .contentleft1 {
@@ -122,6 +122,37 @@ img {
   height: 100px;
   width: auto;
 }
+
+#ms_wework{
+  float: left;
+  height: 100px;
+  width: auto;
+}
+
+#ms_splunk {
+  float: right;
+  height: 100px;
+  width: auto;
+  padding-right: 60px;
+}
+
+/* sottoimmagini */
+.ms_customerstories {
+  text-align: center;
+  padding-top: 40px;
+}
+
+/* colonna sopra */
+.ms_deployscale {
+  text-align: center;
+  padding-top: 10px;
+}
+
+/* sottocolonne */
+.transp {
+  background-color: transparent;
+}
+
 
 /* FOOTER */
 .ms_footercontainer {
