@@ -20,8 +20,8 @@ img {
 
 /* JUMBOTRON */
 #jumbo {
-  /* height: 820px; */
-  /* background-image: url("../img/home.jpg"); */
+  height: 820px;
+  background-image: url("../img/home.jpg");
 }
 
 .box1 {
@@ -85,14 +85,45 @@ img {
   margin-top: 10px;
 }
 
+/* parte SOTTO JUMBOTRON */
+.ms_innovative {
+  text-align: center;
+  padding-top: 35px;
+}
+
+
 /* sezione IMMAGINI */
-  .ms_imgs {
-    padding-right: 200px;
-    padding-left: 200px;
-  }
+.ms_imgs {
+  padding-right: 200px;
+  padding-left: 200px;
+}
 
+#ms_whale {
+  float: left;
+  height: 100px;
+  width: auto;
+  padding-left: 60px;
+}
 
+#ms_fox {
+  float: right;
+  height: 100px;
+  width: auto;
+}
 
+#ms_slack {
+  float: left;
+  height: 100px;
+  width: auto;
+}
+
+#ms_hashicorp {
+  float: right;
+  height: 100px;
+  width: auto;
+}
+
+/* FOOTER */
 .ms_footercontainer {
   padding-right: 150px;
   padding-left: 150px;
