@@ -199,12 +199,14 @@ img {
   text-align: center;
 }
 
+/* carousel */
 .ms_carousel {
-  height: 650px;
+  min-height: 650px;
   text-align: center;
   padding-left: 500px;
   padding-right: 500px;
 }
+
 
 
 
@@ -254,13 +256,51 @@ img {
   padding-top: 10px;
 }
 
+/* sezione GET STARTED NOW */
 
 
+.ms_start {
+  height: 300px;
+  padding-top: 60px;
+}
 
+.ms_start p {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 10px;
+}
 
+#strtnow {
+  font-size: 50px;
+}
+
+.ms_buttonstrt {
+  font-size: 28px;
+  background-color: white;
+  color: lightblue;
+  border-color: transparent;
+}
 
 /* FOOTER */
 .ms_footercontainer {
   padding-right: 150px;
   padding-left: 150px;
+}
+
+/* lista finale */
+#diglog {
+  height: 90px;
+}
+
+.ms_digitallogo p {
+  font-size: 20px;
+  padding-top: 15px;
+}
+
+.ms_list ul {
+    list-style: none;
+    font-size: 28px;
+}
+.ms_list li {
+    margin-top: 4px;
 }
