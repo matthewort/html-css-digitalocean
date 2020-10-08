@@ -153,6 +153,30 @@ img {
   background-color: transparent;
 }
 
+.ms_colcontainer {
+
+}
+
+/* lista sinistra */
+.ms_leftlist {
+  height: 500px;
+}
+
+/* cluster */
+.ms_cluster {
+  height: 400px;
+}
+
+/* optimized */
+.ms_optimized {
+  height: 400px;
+}
+
+
+
+
+
+
 
 /* FOOTER */
 .ms_footercontainer {
