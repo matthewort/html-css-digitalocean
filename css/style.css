@@ -199,6 +199,7 @@ img {
   text-align: center;
 }
 
+
 /* carousel */
 .ms_carousel {
   min-height: 650px;
@@ -217,13 +218,24 @@ img {
 }
 
 .ms_features p {
-  font-size: 30px;
-  padding-top: 10px;
+  font-size: 50px;
+  padding-top: 15px;
+  font-weight: bold;
 }
 
 .ms_predictpricing {
-  height: 200px;
+  height: 300px;
   font-size: 20px;
+  padding-top: 30px;
+}
+
+#ms_lilbold {
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+#ms_pricing {
+  color: blue;
 }
 
 /* sezione SERVICE YOUR CUSTOMERS */
@@ -236,7 +248,8 @@ img {
 /* colonne interne */
 .ms_customers {
   text-align: center;
-  font-size: 55px;
+  font-size: 50px;
+  font-weight: bold;
   padding-top: 90px;
   height: 170px;
 }
@@ -259,8 +272,9 @@ img {
 
 .ms_develop p {
   text-align: center;
-  font-size: 40px;
-  padding-top: 10px;
+  font-size: 50px;
+  padding-top: 35px;
+  font-weight: bold;
 }
 
 #ms_story {
@@ -285,6 +299,7 @@ img {
 
 #strtnow {
   font-size: 50px;
+  font-weight: bold;
 }
 
 .ms_buttonstrt {
@@ -316,4 +331,9 @@ img {
 }
 .ms_list li {
     margin-top: 4px;
+}
+
+.ms_list p {
+    font-size: 30px;
+    font-weight: bold;
 }
