@@ -199,8 +199,53 @@ img {
   text-align: center;
 }
 
+.ms_carousel {
+  height: 650px;
+  text-align: center;
+  padding-left: 500px;
+  padding-right: 500px;
+}
 
 
+
+/* sezione FEATURES YOUR BUSINESS NEEDS */
+.ms_features {
+  height: 100px;
+  text-align: center;
+}
+
+.ms_features p {
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+.ms_predictpricing {
+  height: 200px;
+  font-size: 20px;
+}
+
+/* sezione SERVICE YOUR CUSTOMERS */
+/* container colonne */
+.ms_containcustomers {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+/* colonne interne */
+.ms_customers {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+/* colonne destra e sinistra */
+.ms_cols1 {
+  height: 400px;
+}
+
+.ms_cols2 {
+  height: 400px;
+}
 
 
 
