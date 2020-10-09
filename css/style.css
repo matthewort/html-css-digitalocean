@@ -199,7 +199,10 @@ img {
   text-align: center;
 }
 
-
+#ms_create {
+  color: blue;
+  font-size: 20px;
+}
 /* carousel */
 .ms_carousel {
   min-height: 650px;
