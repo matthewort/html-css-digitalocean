@@ -49,8 +49,8 @@ img {
 .contentright1 {
   height: 820px;
   padding-top: 120px;
-  margin-left: -12px;
-  margin-right: -12px;
+  /* margin-left: -12px;
+  margin-right: -12px; */
 }
 
 .subcontentright1 {
@@ -367,10 +367,10 @@ img {
 }
 
 
-/* MEDIA QUERIES */
+/* XS-MEDIA QUERY */
 @media screen and (min-width: 350px) and (max-width: 990px) {
   .contentleft1 {
-    height: 820px;
+    height: 720px;
     padding-top: 10px;
     padding-right: 10px;
     padding-left: 10px;
@@ -614,7 +614,7 @@ img {
   /* colonne interne */
   .ms_customers {
     text-align: center;
-    font-size: 35px;
+    font-size: 25px;
     font-weight: bold;
     padding-top: 50px;
     height: 170px;
@@ -631,6 +631,1109 @@ img {
     font-size: 20px;
   }
 
+  /* sezione DEVELOPMENT TEAMS */
+  .ms_develop {
+    height: 180px;
+  }
 
+  .ms_develop p {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 35px;
+    font-weight: bold;
+  }
+
+  #ms_story {
+    color: blue;
+    font-size: 28px;
+  }
+
+
+  /* sezione GET STARTED NOW */
+
+
+  .ms_start {
+    height: 300px;
+    padding-top: 60px;
+  }
+
+  .ms_start p {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+  }
+
+  #strtnow {
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  .ms_buttonstrt {
+    font-size: 28px;
+    background-color: white;
+    color: lightblue;
+    border-color: transparent;
+  }
+
+  /* FOOTER */
+  .ms_footercontainer {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  /* lista finale */
+  #diglog {
+    height: 90px;
+  }
+
+  .ms_digitallogo p {
+    font-size: 20px;
+    padding-top: 15px;
+  }
+
+  .ms_list ul {
+      list-style: none;
+      font-size: 28px;
+  }
+  .ms_list li {
+      margin-top: 4px;
+  }
+
+  .ms_list p {
+      font-size: 30px;
+      font-weight: bold;
+  }
+
+}
+
+/* MD-MEDIA QUERY */
+@media screen and (min-width: 991px) and (max-width: 1170px) {
+  .contentleft1 {
+    height: 720px;
+    padding-top: 80px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  #simplest {
+    font-size: 50px;
+    color: white;
+  }
+
+  #parinizio {
+    font-size: 35px;
+    color: lightblue;
+  }
+
+  .contentright1 {
+    height: 720px;
+    width: 480px;
+    padding-top: 80px;
+    margin-left: -12px;
+    margin-right: -12px;
+  }
+
+  .subcontentright1 {
+    height: 390px;
+    max-width: 1000px;
+    border-radius: 15px;
+    background-color: white;
+    margin-left: -12px;
+    margin-right: -12px;
+    text-align: center;
+  }
+
+  #deploy {
+    padding-top: 20px;
+    font-size: 20px;
+    margin-bottom: -1px;
+  }
+
+  #started {
+    font-size: 20px;
+    color: blue;
+  }
+
+  .ms_pad {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .ms_pad1 {
+    padding-right: 100px;
+    padding-left: 100px;
+    font-size: 20px;
+  }
+
+  /* parte SOTTO JUMBOTRON */
+  /* #bottomjumbo {
+    height: 100px;
+    background-color: lightgrey;
+  } */
+  .ms_innovative {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+
+  /* sezione IMMAGINI */
+  /* #ms_images {
+    height: 200px;
+    background-color: lightgrey;
+  } */
+
+  .ms_imgs {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-left: -12px;
+    margin-right: -12px;
+  }
+
+  #ms_whale {
+    float: left;
+    height: 90px;
+    width: auto;
+    padding-left: 0px;
+  }
+
+  #ms_fox {
+    float: right;
+    height: 90px;
+    width: auto;
+  }
+
+  #ms_slack {
+    float: left;
+    height: 80px;
+    width: auto;
+    padding-left: 0px;
+    /* padding-top: 10px; */
+  }
+
+  #ms_hashicorp {
+    float: right;
+    height: 80px;
+    width: auto;
+    /* padding-top: 10px; */
+  }
+
+  #ms_wework{
+    float: left;
+    height: 80px;
+    width: auto;
+  }
+
+  #ms_splunk {
+    float: right;
+    height: 80px;
+    width: auto;
+    padding-right: 0px;
+  }
+
+  /* sottoimmagini */
+  .ms_customerstories {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 25px;
+    color: blue;
+  }
+
+  /* colonna sopra */
+  .ms_deployscale {
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  #ms_deploytitle {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .ms_deployscale p {
+    font-size: 25px;
+  }
+
+  /* sottocolonne */
+  .transp {
+    background-color: transparent;
+  }
+
+  .ms_colcontainer {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .ms_leftlist {
+    height: 400px;
+    padding-top: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 30px;
+  }
+
+  .ms_cluster {
+    height: 390px;
+    padding-top: 50px;
+  }
+
+  .ms_cluster p {
+    font-size: 18px;
+    padding-right: 150px;
+  }
+
+  .ms_cluster img {
+    height: 90px;
+    padding-bottom: 15px;
+  }
+
+  #ms_coltitle {
+    font-weight: bold;
+  }
+
+  /* sezione DESIGNED FOR DEVELOPERS */
+  .ms_designed {
+    text-align: center;
+    height: 300px;
+    padding-top: 60px;
+  }
+
+  #ms_designtitle {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  #ms_build {
+    font-size: 25px;
+  }
+
+
+  /* #ms_create {
+    color: blue;
+    font-size: 10px;
+  } */
+  /* carousel */
+  .ms_carousel {
+    min-height: 550px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  /* sezione FEATURES YOUR BUSINESS NEEDS */
+  .ms_features {
+    height: 100px;
+    text-align: center;
+  }
+
+  .ms_features p {
+    font-size: 25px;
+    padding-top: 15px;
+    font-weight: bold;
+  }
+
+  .ms_predictpricing {
+    height: 300px;
+    font-size: 20px;
+    padding-top: 30px;
+  }
+
+  #ms_lilbold {
+    font-weight: bold;
+    padding-top: 20px;
+  }
+
+  #ms_pricing {
+    color: blue;
+  }
+
+  /* sezione SERVICE YOUR CUSTOMERS */
+  /* container colonne */
+  .ms_containcustomers {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  /* colonne interne */
+  .ms_customers {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 50px;
+    height: 170px;
+  }
+
+  /* colonne destra e sinistra */
+  .ms_cols1 {
+    height: 400px;
+    font-size: 20px;
+  }
+
+  .ms_cols2 {
+    height: 400px;
+    font-size: 20px;
+  }
+
+  /* sezione DEVELOPMENT TEAMS */
+  .ms_develop {
+    height: 180px;
+  }
+
+  .ms_develop p {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 35px;
+    font-weight: bold;
+  }
+
+  #ms_story {
+    color: blue;
+    font-size: 28px;
+  }
+
+
+  /* sezione GET STARTED NOW */
+
+
+  .ms_start {
+    height: 300px;
+    padding-top: 60px;
+  }
+
+  .ms_start p {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+  }
+
+  #strtnow {
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  .ms_buttonstrt {
+    font-size: 28px;
+    background-color: white;
+    color: lightblue;
+    border-color: transparent;
+  }
+
+  /* FOOTER */
+  .ms_footercontainer {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  /* lista finale */
+  #diglog {
+    height: 90px;
+  }
+
+  .ms_digitallogo p {
+    font-size: 20px;
+    padding-top: 15px;
+  }
+
+  .ms_list ul {
+      list-style: none;
+      font-size: 28px;
+  }
+  .ms_list li {
+      margin-top: 4px;
+  }
+
+  .ms_list p {
+      font-size: 30px;
+      font-weight: bold;
+  }
+
+}
+
+/* LG-MEDIA QUERY */
+@media screen and (min-width: 1171px) and (max-width: 1500px) {
+  .contentleft1 {
+    height: 720px;
+    padding-top: 80px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  #simplest {
+    font-size: 50px;
+    color: white;
+  }
+
+  #parinizio {
+    font-size: 35px;
+    color: lightblue;
+  }
+
+  .contentright1 {
+    height: 720px;
+    width: 480px;
+    padding-top: 80px;
+    margin-left: -12px;
+    margin-right: -12px;
+  }
+
+  .subcontentright1 {
+    height: 390px;
+    max-width: 1000px;
+    border-radius: 15px;
+    background-color: white;
+    margin-left: -12px;
+    margin-right: -12px;
+    text-align: center;
+  }
+
+  #deploy {
+    padding-top: 20px;
+    font-size: 20px;
+    margin-bottom: -1px;
+  }
+
+  #started {
+    font-size: 20px;
+    color: blue;
+  }
+
+  .ms_pad {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .ms_pad1 {
+    padding-right: 100px;
+    padding-left: 100px;
+    font-size: 20px;
+  }
+
+  /* parte SOTTO JUMBOTRON */
+  /* #bottomjumbo {
+    height: 100px;
+    background-color: lightgrey;
+  } */
+  .ms_innovative {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+
+  /* sezione IMMAGINI */
+  /* #ms_images {
+    height: 200px;
+    background-color: lightgrey;
+  } */
+
+  .ms_imgs {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-left: -12px;
+    margin-right: -12px;
+  }
+
+  #ms_whale {
+    float: left;
+    height: 90px;
+    width: auto;
+    padding-left: 0px;
+  }
+
+  #ms_fox {
+    float: right;
+    height: 90px;
+    width: auto;
+  }
+
+  #ms_slack {
+    float: left;
+    height: 80px;
+    width: auto;
+    padding-left: 0px;
+    /* padding-top: 10px; */
+  }
+
+  #ms_hashicorp {
+    float: right;
+    height: 80px;
+    width: auto;
+    /* padding-top: 10px; */
+  }
+
+  #ms_wework{
+    float: left;
+    height: 80px;
+    width: auto;
+  }
+
+  #ms_splunk {
+    float: right;
+    height: 80px;
+    width: auto;
+    padding-right: 0px;
+  }
+
+  /* sottoimmagini */
+  .ms_customerstories {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 25px;
+    color: blue;
+  }
+
+  /* colonna sopra */
+  .ms_deployscale {
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  #ms_deploytitle {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .ms_deployscale p {
+    font-size: 25px;
+  }
+
+  /* sottocolonne */
+  .transp {
+    background-color: transparent;
+  }
+
+  .ms_colcontainer {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .ms_leftlist {
+    height: 400px;
+    padding-top: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 30px;
+  }
+
+  .ms_cluster {
+    height: 390px;
+    padding-top: 50px;
+  }
+
+  .ms_cluster p {
+    font-size: 18px;
+    padding-right: 150px;
+  }
+
+  .ms_cluster img {
+    height: 90px;
+    padding-bottom: 15px;
+  }
+
+  #ms_coltitle {
+    font-weight: bold;
+  }
+
+  /* sezione DESIGNED FOR DEVELOPERS */
+  .ms_designed {
+    text-align: center;
+    height: 300px;
+    padding-top: 60px;
+  }
+
+  #ms_designtitle {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  #ms_build {
+    font-size: 25px;
+  }
+
+
+  /* #ms_create {
+    color: blue;
+    font-size: 10px;
+  } */
+  /* carousel */
+  .ms_carousel {
+    min-height: 550px;
+    text-align: center;
+    padding-left: 250px;
+    padding-right: 250px;
+  }
+
+  /* sezione FEATURES YOUR BUSINESS NEEDS */
+  .ms_features {
+    height: 100px;
+    text-align: center;
+  }
+
+  .ms_features p {
+    font-size: 25px;
+    padding-top: 15px;
+    font-weight: bold;
+  }
+
+  .ms_predictpricing {
+    height: 300px;
+    font-size: 20px;
+    padding-top: 30px;
+  }
+
+  #ms_lilbold {
+    font-weight: bold;
+    padding-top: 20px;
+  }
+
+  #ms_pricing {
+    color: blue;
+  }
+
+  /* sezione SERVICE YOUR CUSTOMERS */
+  /* container colonne */
+  .ms_containcustomers {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  /* colonne interne */
+  .ms_customers {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 50px;
+    height: 170px;
+  }
+
+  /* colonne destra e sinistra */
+  .ms_cols1 {
+    height: 400px;
+    font-size: 20px;
+  }
+
+  .ms_cols2 {
+    height: 400px;
+    font-size: 20px;
+  }
+
+  /* sezione DEVELOPMENT TEAMS */
+  .ms_develop {
+    height: 180px;
+  }
+
+  .ms_develop p {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 35px;
+    font-weight: bold;
+  }
+
+  #ms_story {
+    color: blue;
+    font-size: 28px;
+  }
+
+
+  /* sezione GET STARTED NOW */
+
+
+  .ms_start {
+    height: 300px;
+    padding-top: 60px;
+  }
+
+  .ms_start p {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+  }
+
+  #strtnow {
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  .ms_buttonstrt {
+    font-size: 28px;
+    background-color: white;
+    color: lightblue;
+    border-color: transparent;
+  }
+
+  /* FOOTER */
+  .ms_footercontainer {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  /* lista finale */
+  #diglog {
+    height: 90px;
+  }
+
+  .ms_digitallogo p {
+    font-size: 20px;
+    padding-top: 15px;
+  }
+
+  .ms_list ul {
+      list-style: none;
+      font-size: 28px;
+  }
+  .ms_list li {
+      margin-top: 4px;
+  }
+
+  .ms_list p {
+      font-size: 30px;
+      font-weight: bold;
+  }
+
+}
+
+/* XLG-MEDIA QUERY */
+@media screen and (min-width: 1501px) and (max-width:1712) {
+  .contentleft1 {
+    height: 720px;
+    padding-top: 80px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  #simplest {
+    font-size: 50px;
+    color: white;
+  }
+
+  #parinizio {
+    font-size: 35px;
+    color: lightblue;
+  }
+
+  .contentright1 {
+    height: 720px;
+    width: 480px;
+    padding-top: 80px;
+    margin-left: -12px;
+    margin-right: -12px;
+  }
+
+  .subcontentright1 {
+    height: 390px;
+    max-width: 1000px;
+    border-radius: 15px;
+    background-color: white;
+    margin-left: -12px;
+    margin-right: -12px;
+    text-align: center;
+  }
+
+  #deploy {
+    padding-top: 20px;
+    font-size: 20px;
+    margin-bottom: -1px;
+  }
+
+  #started {
+    font-size: 20px;
+    color: blue;
+  }
+
+  .ms_pad {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .ms_pad1 {
+    padding-right: 100px;
+    padding-left: 100px;
+    font-size: 20px;
+  }
+
+  /* parte SOTTO JUMBOTRON */
+  /* #bottomjumbo {
+    height: 100px;
+    background-color: lightgrey;
+  } */
+  .ms_innovative {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+
+  /* sezione IMMAGINI */
+  /* #ms_images {
+    height: 200px;
+    background-color: lightgrey;
+  } */
+
+  .ms_imgs {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-left: -12px;
+    margin-right: -12px;
+  }
+
+  #ms_whale {
+    float: left;
+    height: 90px;
+    width: auto;
+    padding-left: 0px;
+  }
+
+  #ms_fox {
+    float: right;
+    height: 90px;
+    width: auto;
+  }
+
+  #ms_slack {
+    float: left;
+    height: 80px;
+    width: auto;
+    padding-left: 0px;
+    /* padding-top: 10px; */
+  }
+
+  #ms_hashicorp {
+    float: right;
+    height: 80px;
+    width: auto;
+    /* padding-top: 10px; */
+  }
+
+  #ms_wework{
+    float: left;
+    height: 80px;
+    width: auto;
+  }
+
+  #ms_splunk {
+    float: right;
+    height: 80px;
+    width: auto;
+    padding-right: 0px;
+  }
+
+  /* sottoimmagini */
+  .ms_customerstories {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 25px;
+    color: blue;
+  }
+
+  /* colonna sopra */
+  .ms_deployscale {
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  #ms_deploytitle {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .ms_deployscale p {
+    font-size: 25px;
+  }
+
+  /* sottocolonne */
+  .transp {
+    background-color: transparent;
+  }
+
+  .ms_colcontainer {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .ms_leftlist {
+    height: 400px;
+    padding-top: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 30px;
+  }
+
+  .ms_cluster {
+    height: 390px;
+    padding-top: 50px;
+  }
+
+  .ms_cluster p {
+    font-size: 18px;
+    padding-right: 150px;
+  }
+
+  .ms_cluster img {
+    height: 90px;
+    padding-bottom: 15px;
+  }
+
+  #ms_coltitle {
+    font-weight: bold;
+  }
+
+  /* sezione DESIGNED FOR DEVELOPERS */
+  .ms_designed {
+    text-align: center;
+    height: 300px;
+    padding-top: 60px;
+  }
+
+  #ms_designtitle {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  #ms_build {
+    font-size: 25px;
+  }
+
+
+  /* #ms_create {
+    color: blue;
+    font-size: 10px;
+  } */
+  /* carousel */
+  .ms_carousel {
+    min-height: 550px;
+    text-align: center;
+    padding-left: 250px;
+    padding-right: 250px;
+  }
+
+  /* sezione FEATURES YOUR BUSINESS NEEDS */
+  .ms_features {
+    height: 100px;
+    text-align: center;
+  }
+
+  .ms_features p {
+    font-size: 25px;
+    padding-top: 15px;
+    font-weight: bold;
+  }
+
+  .ms_predictpricing {
+    height: 300px;
+    font-size: 20px;
+    padding-top: 30px;
+  }
+
+  #ms_lilbold {
+    font-weight: bold;
+    padding-top: 20px;
+  }
+
+  #ms_pricing {
+    color: blue;
+  }
+
+  /* sezione SERVICE YOUR CUSTOMERS */
+  /* container colonne */
+  .ms_containcustomers {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  /* colonne interne */
+  .ms_customers {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 50px;
+    height: 170px;
+  }
+
+  /* colonne destra e sinistra */
+  .ms_cols1 {
+    height: 400px;
+    font-size: 20px;
+  }
+
+  .ms_cols2 {
+    height: 400px;
+    font-size: 20px;
+  }
+
+  /* sezione DEVELOPMENT TEAMS */
+  .ms_develop {
+    height: 180px;
+  }
+
+  .ms_develop p {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 35px;
+    font-weight: bold;
+  }
+
+  #ms_story {
+    color: blue;
+    font-size: 28px;
+  }
+
+
+  /* sezione GET STARTED NOW */
+
+
+  .ms_start {
+    height: 300px;
+    padding-top: 60px;
+  }
+
+  .ms_start p {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+  }
+
+  #strtnow {
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  .ms_buttonstrt {
+    font-size: 28px;
+    background-color: white;
+    color: lightblue;
+    border-color: transparent;
+  }
+
+  /* FOOTER */
+  .ms_footercontainer {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  /* lista finale */
+  #diglog {
+    height: 90px;
+  }
+
+  .ms_digitallogo p {
+    font-size: 20px;
+    padding-top: 15px;
+  }
+
+  .ms_list ul {
+      list-style: none;
+      font-size: 28px;
+  }
+  .ms_list li {
+      margin-top: 4px;
+  }
+
+  .ms_list p {
+      font-size: 30px;
+      font-weight: bold;
+  }
 
 }
