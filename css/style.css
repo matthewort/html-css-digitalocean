@@ -163,7 +163,8 @@ img {
 }
 
 .ms_colcontainer {
-
+  padding-right: 150px;
+  padding-left: 150px;
 }
 
 .ms_leftlist {
@@ -179,19 +180,14 @@ img {
   padding-top: 50px;
 }
 
-.ms_optimized {
-  height: 400px;
-  padding-top: 50px;
+.ms_cluster p {
+  font-size: 25px;
+  padding-right: 150px;
 }
 
-.ms_oneclick {
-  height: 400px;
-  padding-top: 50px;
-}
-
-.ms_global {
-  height: 400px;
-  padding-top: 50px;
+.ms_cluster img {
+  height: 90px;
+  padding-bottom: 15px;
 }
 
 /* sezione DESIGNED FOR DEVELOPERS */
