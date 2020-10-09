@@ -92,7 +92,9 @@ img {
 } */
 .ms_innovative {
   text-align: center;
-  padding-top: 35px;
+  padding-top: 30px;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 
@@ -142,19 +144,30 @@ img {
   float: right;
   height: 100px;
   width: auto;
-  padding-right: 60px;
+  padding-right: 50px;
 }
 
 /* sottoimmagini */
 .ms_customerstories {
   text-align: center;
-  padding-top: 40px;
+  padding-top: 30px;
+  font-size: 25px;
+  color: blue;
 }
 
 /* colonna sopra */
 .ms_deployscale {
   text-align: center;
   padding-top: 10px;
+}
+
+#ms_deploytitle {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.ms_deployscale p {
+  font-size: 35px;
 }
 
 /* sottocolonne */
@@ -169,7 +182,7 @@ img {
 
 .ms_leftlist {
   height: 1000px;
-  padding-top: 80px;
+  padding-top: 50px;
   padding-left: 60px;
   padding-right: 60px;
   font-size: 30px;
@@ -188,6 +201,10 @@ img {
 .ms_cluster img {
   height: 90px;
   padding-bottom: 15px;
+}
+
+#ms_coltitle {
+  font-weight: bold;
 }
 
 /* sezione DESIGNED FOR DEVELOPERS */
