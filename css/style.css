@@ -197,7 +197,19 @@ img {
 /* sezione DESIGNED FOR DEVELOPERS */
 .ms_designed {
   text-align: center;
+  height: 300px;
+  padding-top: 60px;
 }
+
+#ms_designtitle {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#ms_build {
+  font-size: 35px;
+}
+
 
 #ms_create {
   color: blue;
