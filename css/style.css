@@ -13,8 +13,8 @@ img {
 /* debug */
 [class*="col-"] {
   min-height: 100px;
-  background-color: #5ea9be;
-  border: solid 1px black;
+  /* background-color: #5ea9be;
+  border: solid 1px black; */
   /* padding: 2px; */
 }
 
