@@ -332,6 +332,11 @@ img {
 
 
 /* sezione GET STARTED NOW */
+#ms_getstarted {
+  margin-bottom: -30px;
+  background-color: #0090ee;
+  color: white;
+}
 
 
 .ms_start {
@@ -353,11 +358,15 @@ img {
 .ms_buttonstrt {
   font-size: 28px;
   background-color: white;
-  color: lightblue;
+  color: #0059d8;
   border-color: transparent;
 }
 
 /* FOOTER */
+#ms_contacts {
+  background-color: #0059d8;
+}
+
 .ms_footercontainer {
   padding-right: 150px;
   padding-left: 150px;
@@ -371,24 +380,33 @@ img {
 .ms_digitallogo p {
   font-size: 20px;
   padding-top: 15px;
+  color: white;
 }
 
 .ms_list ul {
     list-style: none;
     font-size: 28px;
+    color: white;
 }
 .ms_list li {
     margin-top: 4px;
+    color: white;
 }
 
 .ms_list p {
     font-size: 30px;
     font-weight: bold;
+    color: white;
 }
 
 
 /* XS-MEDIA QUERY */
 @media screen and (min-width: 350px) and (max-width: 990px) {
+  #jumbo {
+    height: 1300px;
+    background-image: url("../img/home.jpg");
+  }
+
   .contentleft1 {
     height: 720px;
     padding-top: 10px;
@@ -408,7 +426,7 @@ img {
 
   .contentright1 {
     height: 520px;
-    padding-top: 20px;
+    padding-top: 30px;
     margin-left: -12px;
     margin-right: -12px;
   }
@@ -440,8 +458,8 @@ img {
   }
 
   .ms_pad1 {
-    padding-right: 100px;
-    padding-left: 100px;
+    padding-right: 20px;
+    padding-left: 20px;
     font-size: 20px;
   }
 
@@ -691,7 +709,7 @@ img {
   .ms_buttonstrt {
     font-size: 28px;
     background-color: white;
-    color: lightblue;
+    color: #0059d8;
     border-color: transparent;
   }
 
@@ -747,10 +765,11 @@ img {
 
   .contentright1 {
     height: 720px;
-    width: 480px;
+    width: 520px;
     padding-top: 80px;
     margin-left: -12px;
     margin-right: -12px;
+    padding-right: 30px;
   }
 
   .subcontentright1 {
@@ -780,8 +799,8 @@ img {
   }
 
   .ms_pad1 {
-    padding-right: 100px;
-    padding-left: 100px;
+    padding-right: 80px;
+    padding-left: 80px;
     font-size: 20px;
   }
 
@@ -1035,7 +1054,7 @@ img {
   .ms_buttonstrt {
     font-size: 28px;
     background-color: white;
-    color: lightblue;
+    color: #0059d8;
     border-color: transparent;
   }
 
@@ -1091,7 +1110,7 @@ img {
 
   .contentright1 {
     height: 720px;
-    width: 480px;
+    width: 580px;
     padding-top: 80px;
     margin-left: -12px;
     margin-right: -12px;
@@ -1379,7 +1398,7 @@ img {
   .ms_buttonstrt {
     font-size: 28px;
     background-color: white;
-    color: lightblue;
+    color: #0059d8;
     border-color: transparent;
   }
 
@@ -1702,8 +1721,6 @@ img {
 
 
   /* sezione GET STARTED NOW */
-
-
   .ms_start {
     height: 300px;
     padding-top: 60px;
@@ -1723,7 +1740,7 @@ img {
   .ms_buttonstrt {
     font-size: 28px;
     background-color: white;
-    color: lightblue;
+    color: #0059d8;
     border-color: transparent;
   }
 
