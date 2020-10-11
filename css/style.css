@@ -97,12 +97,18 @@ img {
   font-weight: bold;
 }
 
+#bottomjumbo {
+  background-color: #a0d2eb;
+}
 
 /* sezione IMMAGINI */
 /* #ms_images {
   height: 200px;
   background-color: lightgrey;
 } */
+#ms_images {
+  background-color: #a0d2eb;
+}
 
 .ms_imgs {
   padding-right: 200px;
@@ -212,6 +218,9 @@ img {
   text-align: center;
   height: 300px;
   padding-top: 60px;
+  background-color: #a0d2eb;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 
 #ms_designtitle {
@@ -234,6 +243,9 @@ img {
   text-align: center;
   padding-left: 500px;
   padding-right: 500px;
+  background-color: #a0d2eb;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 
 
@@ -268,6 +280,11 @@ img {
 
 /* sezione SERVICE YOUR CUSTOMERS */
 /* container colonne */
+#ms_service {
+    background-color: #4169E1;
+    color: white;
+}
+
 .ms_containcustomers {
   padding-left: 100px;
   padding-right: 100px;
@@ -296,6 +313,9 @@ img {
 /* sezione DEVELOPMENT TEAMS */
 .ms_develop {
   height: 180px;
+  background-color: #a0d2eb;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 
 .ms_develop p {
