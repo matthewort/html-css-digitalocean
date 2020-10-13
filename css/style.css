@@ -18,6 +18,13 @@ img {
   /* padding: 2px; */
 }
 
+/* HEADER */
+#ms_logo {
+  height: 100px;
+  width: auto;
+}
+
+
 /* JUMBOTRON */
 #jumbo {
   height: 820px;
