@@ -19,6 +19,14 @@ img {
 }
 
 /* HEADER */
+nav {
+  border-bottom: 0px!important;
+  margin-bottom: 0px!important;
+  background-color: white !important;
+  border-color: transparent !important;
+}
+
+
 #ms_logo {
   height: 100px;
   width: auto;
